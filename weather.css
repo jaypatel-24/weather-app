@@ -1,0 +1,55 @@
+.header {
+  display: block;
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: cornflowerblue;
+  border: 1px solid;
+  border-color: white;
+
+  width: 605px;
+  height: 70px;
+}
+
+#weather {
+  margin-top: 10px;
+}
+
+#searchBox,
+#search,
+#F_C {
+  width: 300px;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border: 1px solid;
+}
+
+#clear {
+  width: 610px;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border: 1px solid;
+}
+
+#search:hover,
+#clear:hover {
+  background-color: darkgray;
+}
+
+.output {
+  display: block;
+  text-align: left;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="weather.css">
+  <title>Weather</title>
+</head>
+<body>
+  <body background="weather3.jpg">
+	
+  <div class="header">
+		<p id="weather">Weather Report</p>
+	</div>
+
+  	<form class="container">
+  		<input type="text" name="searchBox" placeholder="enter city name" id="searchBox">
+  		<input type="button" name="searchButton" value="submit" id="search">
+
+  	</form>
+
+  	<div class="output">
+      <p id="loading"></p> 
+  		<p id="temperature"></p>
+  		<p id="atmosphere"></p>
+  		<p id="humidity"></p>
+  		<p id="windSpeed"></p>
+
+  	</div>
+
+  	<form class="container">
+  		<input type="button" name="clear" value="clear" id="clear">
+  	</form>
+
+  <script src="weather.js"></script>
+</body>
+</html>
